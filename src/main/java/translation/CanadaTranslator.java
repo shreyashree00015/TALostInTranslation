@@ -57,6 +57,9 @@ public class CanadaTranslator implements Translator {
         else if ("zh".equals(languageCode)) {
             return "加拿大";
         }
+        else if (languageCode.equals("fr")) {
+            return "Canada";
+        }
         else {
             return null;
         }
